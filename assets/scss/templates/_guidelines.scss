@@ -28,7 +28,7 @@
   padding: 15px 0;
   margin-right: 25px;
   text-transform: uppercase;
-  @include transition;
+  @include transition-all;
 
   &:before {
     content: '';
@@ -37,7 +37,7 @@
     border-bottom: 3px solid $dp-color-darkyellow;
     bottom: 0;
     right: 350px;
-    @include transition;
+    @include transition-all;
   }
 
   &:hover:before {
@@ -61,7 +61,7 @@
   border-bottom: 3px solid $dp-color-darkyellow;
   bottom: 0;
   right: 0;
-  @include transition;
+  @include transition-all;
 }
 
 .main-colors {
@@ -133,6 +133,7 @@
   }
 }
 /* buttons */
+
 .main-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -162,7 +163,7 @@
   }
 
   &:after {
-    @include transition;
+    @include transition-all;
     border: 1px solid rgba(153, 153, 153, 0.9);
   }
 
@@ -175,14 +176,14 @@
 .box-button {
   position: relative;
   min-height: 260px;
-  @include transition;
+  @include transition-all;
 }
 
 .box-button::before,
 .btn::after {
   content: '';
   position: absolute;
-  @include transition;
+  @include transition-all;
   top: -15px;
   left: 0;
   width: 100%;
