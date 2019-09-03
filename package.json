@@ -25,8 +25,8 @@
   },
   "scripts": {
     "semantic-release": "semantic-release",
-    "prettier": "prettier --write \"assets/**/*.{css,scss,html}\" \"!assets/scss/libs/**/*.{css,scss}\"",
-    "prettier-check": "prettier-check \"assets/**/*.{css,scss,html}\" \"!assets/scss/libs/**/*.{css,scss}\""
+    "prettier": "prettier --write \"assets/**/*.{css,scss,html,js}\" \"!assets/scss/libs/**/*.{css,scss}\"",
+    "prettier-check": "prettier-check \"assets/**/*.{css,scss,html,js}\" \"!assets/scss/libs/**/*.{css,scss}\""
   },
   "prettier": {
     "semi": true,
