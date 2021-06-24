@@ -97,11 +97,10 @@
 
     .tab--content {
       opacity: 0;
-      height: 0;
+      height: auto;
 
       &.active {
         opacity: 1;
-        height: auto;
         transition: opacity 1s ease-in-out;
       }
     }
